@@ -4,9 +4,7 @@ import { FadeInUp, StaggerContainer, StaggerItem } from "./AnimationWrapper";
 
 const Collection: React.FC = () => {
   // Using picsum to replace missing local assets
-  const images = Array.from({ length: 8 }).map(
-    (_, i) => `${import.meta.env.BASE_URL}assets/image_${i + 1}.png`,
-  );
+  const images = Array.from({ length: 8 }).map((_, i) => `image_${i + 1}.png`);
 
   return (
     <section className="py-16 overflow-hidden">

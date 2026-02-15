@@ -27,7 +27,7 @@ const Navbar: React.FC = () => {
         <div className="flex items-center gap-1">
           <div className="size-8 overflow-hidden rounded-full bg-white/5 p-1">
             <img
-              src={`${import.meta.env.BASE_URL}assets/empty_logo_transparent_c.png`}
+              src="empty_logo_transparent_c.png"
               alt="logo"
               className="w-full h-full object-contain rounded-full"
             />
