@@ -4,7 +4,7 @@ import { FadeInUp, StaggerContainer, StaggerItem } from "./AnimationWrapper";
 
 const Collection: React.FC = () => {
   const images = Array.from({ length: 8 }).map(
-    (_, i) => `/image_${i + 1}.png`,
+    (_, i) => `${import.meta.env.BASE_URL}/image_${i + 1}.png`,
   );
 
   return (
