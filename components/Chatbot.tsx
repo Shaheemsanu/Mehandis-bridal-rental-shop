@@ -21,6 +21,9 @@ BOOKING FLOW:
 3. If they say "yes" or give a positive confirmation, you MUST include the exact text "[TRIGGER_WHATSAPP_ENQUIRY]" at the very end of your response. Also, provide a polite confirmation message that their details are ready to be sent to the owner on WhatsApp.`;
 
 const GEMINI_MODELS = [
+  'gemini-3.1-pro-preview',     
+  'gemini-3-flash-preview',    
+  'gemini-3.1-flash-lite-preview',
   'gemini-2.0-flash-lite',
   'gemini-2.5-flash-lite',
   'gemini-2.0-flash',
