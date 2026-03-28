@@ -59,6 +59,7 @@ export default function Chatbot() {
       parts: [{ text: message.text }],
     }));
 
+    
     return aiRef.current.chats.create({
       model: GEMINI_MODELS[modelIndexRef.current],
       history,
